@@ -10,7 +10,7 @@ export async function getDb(env) {
     host: env.DB_HOST,
     port: port,
     user: env.DB_USER,
-    password: env.DB_PASSWORD,
+    password: env.VRC_ASSETS_DB_PASSWORD,
     database: env.DB_NAME,
     
     // === 关键参数 ===
