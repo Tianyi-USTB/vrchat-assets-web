@@ -8,12 +8,10 @@
     "nodejs_compat"
   ],
 
-  // 环境变量占位符 (不要在这里写真实密码)
   "vars": {
-    "DB_HOST": "HOST",
-    "DB_USER": "USER",
-    "DB_NAME": "DB_NAME",
-    "ADMIN_TOKEN": "ADMIN_TOKEN",
-    "DB_PORT": "PORT"
+    "DB_HOST": "120.55.45.54",
+    "DB_USER": "tianyitwt",
+    "DB_NAME": "vrchat_assets",
+    "DB_PORT": "3307"
   }
 }
