@@ -12,10 +12,11 @@ export async function getDb(env) {
     user: env.DB_USER,
     password: env.DB_PASSWORD,
     database: env.DB_NAME,
+    connectTimeout: 20000, // 关键！防止超时过快
     
     // === 关键参数 ===
     // 禁用 eval，解决 Cloudflare 报错
-    disableEval: true, 
+    disableEval: true,  
     
     // 之前的经验：Cloudflare 上不传 ssl 参数或传 undefined 最稳
     // 如果 sqlpub 强制 ssl，可以改为 ssl: { rejectUnauthorized: false }
