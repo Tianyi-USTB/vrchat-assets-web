@@ -1,0 +1,19 @@
+{
+  "name": "vrchat-assets-web",
+  "compatibility_date": "2025-01-01",
+  "pages_build_output_dir": "dist",
+  
+  // 开启 Node.js 兼容性 (连接 MySQL 需要)
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+
+  // 环境变量占位符 (不要在这里写真实密码)
+  "vars": {
+    "DB_HOST": "HOST",
+    "DB_USER": "USER",
+    "DB_NAME": "DB_NAME",
+    "ADMIN_TOKEN": "ADMIN_TOKEN",
+    "DB_PORT": "PORT"
+  }
+}
